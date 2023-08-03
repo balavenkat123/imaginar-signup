@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './App.css';
 // import Validation from './LoginValid';
 
 
@@ -23,9 +24,11 @@ const Login = () => {
 // //     }
   return (
  
-    <div className='d-flex justify-content-center align-items-center bg-secondary vh-100'>
+    <div className='d-flex justify-content-center align-items-center mean-fruit-gradient vh-100 '>
         <div className='bg-white p-3 w-25 rounded'>
             <form action='' >
+              <h4 className='r-1 ustify-content-center align-items-center'> Login Form</h4>
+
                 <div className='mb-3'>
                 <label htmlFor='email'>Email</label>
                 <input name='email' type='email' placeholder='email'   className='form-control' />

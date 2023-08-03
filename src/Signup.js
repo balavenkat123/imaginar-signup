@@ -1,5 +1,6 @@
 import React  from 'react'
 import { Link} from "react-router-dom";
+import './App.css';
 
 // import Validation from './SignupValid';
 
@@ -34,7 +35,7 @@ function Signup(){
 
    
   return (
-    <div className='d-flex justify-content-center align-items-center bg-primary vh-100'>
+    <div className='d-flex justify-content-center align-items-center  mean-fruit-gradient vh-100'>
     <div className='bg-white p-3 w-25 rounded'>
         <form action='' >
             {/* //onSubmit={handleSubmit} */}
