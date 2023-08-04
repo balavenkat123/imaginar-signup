@@ -39,7 +39,7 @@ const Login = () => {
                 <input name='password' type='password' placeholder='password'  className='form-control'/>
                 {/* {errors.password && <span className='text-danger'>{errors.password}</span>} */}
                 </div>
-                <button type='submit' to='/Success' className='btn btn-success w-100'>Login In</button>
+                <button type='submit' to='/Success' className='btn btn-success mean-fruit-gradient w-100'>Login In</button>
                 <p>not have an account .....<br/>
                 create one here</p>
                 <Link to='/Signup' className='btn btn-default border bg-info w-100'>Create Account</Link>
