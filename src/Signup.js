@@ -39,21 +39,22 @@ function Signup(){
     <div className='bg-white p-3 w-25 rounded'>
         <form action='' >
             {/* //onSubmit={handleSubmit} */}
+            <center><h4 className='w-10 r-1 m-4 ustify-content-center align-items-center '> <strong>SignUp</strong> </h4></center>
             <div className='mb-3'>
-            <label htmlFor='name'>Name</label>
-            <input type='name' placeholder='Full name' className='form-control' name='name'  />
+            <label htmlFor='name'> <strong>Name</strong> </label>
+            <input type='name'  className='form-control' name='name'  />
             {/* onChange={handleInput} */}
             </div>           
             <div className='mb-3'>
-            <label htmlFor='email'>Email</label>
-            <input type='email' placeholder='email' className='form-control' name='email' />
+            <label htmlFor='email'><strong>Email </strong></label>
+            <input type='email' className='form-control' name='email' />
             </div>
             <div className='mb-3'>
-            <label htmlFor='password'>passward</label>
-            <input type='password' placeholder='password' className='form-control' name='password'  />
+            <label htmlFor='password'><strong>passward </strong> </label>
+            <input type='password'  className='form-control' name='password'  />
             </div>
-            <button  type='submit' className='btn btn-success w-100 mb-3'>Sign-UP</button>
-            <Link to='/' className='btn btn-success w-100 bg-secondary'>login</Link>
+            <button  type='submit' className='btn btn-success mean-fruit-gradient w-100 mb-3'>Sign-UP</button>
+            <Link to='/' className='btn btn-success w-100 bg-primary'>Back to Login</Link>
             
         </form>
     </div>   
