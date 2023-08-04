@@ -38,7 +38,7 @@ const Login = () => {
                 <div className='mb-3'>
                 <label htmlFor='password'><strong>Passward</strong></label>
                 <input name='password' type='password' className='form-control border'/>
-                <a href='#'>Forgot Passward?</a>
+                <a href='#'>Forgot Passward ?</a>
                 {/* {errors.password && <span className='text-danger'>{errors.password}</span>} */}
                 </div>
                 <button type='submit' to='/Success' className='btn btn-success mean-fruit-gradient w-100 m-1'>LOGIN</button>
